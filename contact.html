@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Elevate Studio</title>
+  <meta name="description" content="Elegant web design studio delivering delightful, performant websites." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body class="theme-image">
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/index.html" aria-label="Studio Home">
+        <span class="logo"></span><span>Elevate Studio</span>
+      </a>
+      <div class="links">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a class="cta" href="/contact.html">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="container mobile-menu">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/services.html">Services</a>
+      <a class="cta" href="/contact.html">Contact</a>
+    </div>
+  </nav>
+  <script defer src="/assets/js/main.js"></script>
+
+  <section class="container contact-split" style="padding-top:42px;">
+    <div class="contact-image reveal" style="background-image:url('https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1600&auto=format&fit=crop')" role="img" aria-label="Creative workspace"></div>
+    <form class="contact-form reveal" netlify>
+      <h2 class="section-title">Let's build something great</h2>
+      <p class="muted">Tell us about your project. We'll get back within 1–2 business days.</p>
+      <div class="form-row">
+        <input name="name" placeholder="Your name" required aria-label="Your name"/>
+        <input name="email" placeholder="Email" type="email" required aria-label="Email"/>
+      </div>
+      <div class="form-row">
+        <input name="company" placeholder="Company (optional)" aria-label="Company"/>
+        <input name="budget" placeholder="Budget (optional)" aria-label="Budget"/>
+      </div>
+      <textarea name="message" rows="6" placeholder="Project details" aria-label="Project details"></textarea>
+      <div style="display:flex; gap:.6rem; align-items:center; margin-top:.6rem;">
+        <button class="btn primary" type="submit">Send Inquiry</button>
+        <a class="btn" href="mailto:hello@elevate.studio">Email us</a>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="brand"><span class="logo"></span><span>Elevate Studio</span></div>
+        <p class="muted">We craft fast, accessible, and beautiful web experiences.</p>
+        <div>
+          <span class="chip">SEO</span>
+          <span class="chip">Performance</span>
+          <span class="chip">Brand Systems</span>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p class="muted">hello@elevate.studio<br/>+94 70 000 0000</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p class="muted"><a href="#">Dribbble</a> · <a href="#">Behance</a> · <a href="#">X</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
